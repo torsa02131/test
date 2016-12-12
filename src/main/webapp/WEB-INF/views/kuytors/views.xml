@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="kuytors/list">
+        <put-attribute name="body" value="/WEB-INF/views/kuytors/list.jspx"/>
+    </definition>
+<definition extends="default" name="kuytors/show">
+        <put-attribute name="body" value="/WEB-INF/views/kuytors/show.jspx"/>
+    </definition>
+<definition extends="default" name="kuytors/create">
+        <put-attribute name="body" value="/WEB-INF/views/kuytors/create.jspx"/>
+    </definition>
+<definition extends="default" name="kuytors/update">
+        <put-attribute name="body" value="/WEB-INF/views/kuytors/update.jspx"/>
+    </definition>
+</tiles-definitions>
