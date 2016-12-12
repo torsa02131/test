@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.format.FormatterRegistry;
 import tank.domain.Base;
+import tank.domain.KUYTOR;
 import tank.domain.Topping;
 import tank.web.ApplicationConversionServiceFactoryBean;
 
@@ -34,6 +35,30 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         return new org.springframework.core.convert.converter.Converter<java.lang.String, tank.domain.Base>() {
             public tank.domain.Base convert(String id) {
                 return getObject().convert(getObject().convert(id, Long.class), Base.class);
+            }
+        };
+    }
+    
+    public Converter<KUYTOR, String> ApplicationConversionServiceFactoryBean.getKUYTORToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<tank.domain.KUYTOR, java.lang.String>() {
+            public String convert(KUYTOR kUYTOR) {
+                return new StringBuilder().append(kUYTOR.getTOR()).toString();
+            }
+        };
+    }
+    
+    public Converter<Long, KUYTOR> ApplicationConversionServiceFactoryBean.getIdToKUYTORConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.Long, tank.domain.KUYTOR>() {
+            public tank.domain.KUYTOR convert(java.lang.Long id) {
+                return KUYTOR.findKUYTOR(id);
+            }
+        };
+    }
+    
+    public Converter<String, KUYTOR> ApplicationConversionServiceFactoryBean.getStringToKUYTORConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, tank.domain.KUYTOR>() {
+            public tank.domain.KUYTOR convert(String id) {
+                return getObject().convert(getObject().convert(id, Long.class), KUYTOR.class);
             }
         };
     }
@@ -66,6 +91,9 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         registry.addConverter(getBaseToStringConverter());
         registry.addConverter(getIdToBaseConverter());
         registry.addConverter(getStringToBaseConverter());
+        registry.addConverter(getKUYTORToStringConverter());
+        registry.addConverter(getIdToKUYTORConverter());
+        registry.addConverter(getStringToKUYTORConverter());
         registry.addConverter(getToppingToStringConverter());
         registry.addConverter(getIdToToppingConverter());
         registry.addConverter(getStringToToppingConverter());

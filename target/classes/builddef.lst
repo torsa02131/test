@@ -17,6 +17,12 @@ C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\Base_Roo_JavaBean.aj
 C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\Base_Roo_Jpa_ActiveRecord.aj
 C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\Base_Roo_Jpa_Entity.aj
 C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\Base_Roo_ToString.aj
+C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\KUYTOR.java
+C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\KUYTOR_Roo_Configurable.aj
+C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\KUYTOR_Roo_JavaBean.aj
+C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\KUYTOR_Roo_Jpa_ActiveRecord.aj
+C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\KUYTOR_Roo_Jpa_Entity.aj
+C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\KUYTOR_Roo_ToString.aj
 C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\Topping.java
 C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\Topping_Roo_Configurable.aj
 C:\cygwin64\home\User\tor\test\src\main\java\tank\domain\Topping_Roo_JavaBean.aj
@@ -27,5 +33,7 @@ C:\cygwin64\home\User\tor\test\src\main\java\tank\web\ApplicationConversionServi
 C:\cygwin64\home\User\tor\test\src\main\java\tank\web\ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj
 C:\cygwin64\home\User\tor\test\src\main\java\tank\web\BaseController.java
 C:\cygwin64\home\User\tor\test\src\main\java\tank\web\BaseController_Roo_Controller.aj
+C:\cygwin64\home\User\tor\test\src\main\java\tank\web\KUYTORController.java
+C:\cygwin64\home\User\tor\test\src\main\java\tank\web\KUYTORController_Roo_Controller.aj
 C:\cygwin64\home\User\tor\test\src\main\java\tank\web\ToppingController.java
 C:\cygwin64\home\User\tor\test\src\main\java\tank\web\ToppingController_Roo_Controller.aj

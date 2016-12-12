@@ -11,5 +11,9 @@
             <menu:item id="i_topping_new" messageCode="global_menu_new" url="/toppings?form" z="e1a5iGUXU+AnmE3TsSiRG0anau4="/>
             <menu:item id="i_topping_list" messageCode="global_menu_list" url="/toppings?page=1&amp;size=${empty param.size ? 10 : param.size}" z="XzlIdR9bro/F4JpeR+A0AAJ/u7g="/>
         </menu:category>
+        <menu:category id="c_kuytor" z="wYo8hLqPDKDZwF+2vPLUsa7Z4lw=">
+            <menu:item id="i_kuytor_new" messageCode="global_menu_new" url="/kuytors?form" z="ncN62rw6YdqPvdATTz0UOM93wIk="/>
+            <menu:item id="i_kuytor_list" messageCode="global_menu_list" url="/kuytors?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4MIrtoRMU2K2WLahXk081fAJXmY="/>
+        </menu:category>
     </menu:menu>
 </div>
