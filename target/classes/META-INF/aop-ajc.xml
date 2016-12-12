@@ -1,0 +1,18 @@
+<aspectj>
+<aspects>
+<aspect name="tank.domain.Base_Roo_Configurable"/>
+<aspect name="tank.web.ToppingController_Roo_Controller"/>
+<aspect name="tank.domain.Base_Roo_JavaBean"/>
+<aspect name="tank.domain.Topping_Roo_Jpa_ActiveRecord"/>
+<aspect name="tank.domain.Topping_Roo_Jpa_Entity"/>
+<aspect name="tank.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="tank.domain.Base_Roo_Jpa_ActiveRecord"/>
+<aspect name="tank.domain.Topping_Roo_JavaBean"/>
+<aspect name="tank.domain.Base_Roo_ToString"/>
+<aspect name="tank.domain.Topping_Roo_Configurable"/>
+<aspect name="tank.web.BaseController_Roo_Controller"/>
+<aspect name="tank.domain.Base_Roo_Jpa_Entity"/>
+<aspect name="tank.domain.Topping_Roo_ToString"/>
+</aspects>
+</aspectj>
+
